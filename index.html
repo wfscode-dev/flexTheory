@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Demo</title>
+</head>
+<body>
+<div class="wrapper">
+    <main class="page">
+        <section class="page__flex flex">
+            <div class="flex__container _container">
+                <h1>justify-content</h1>
+                <p>Отвечает за выравнивание элементов по главной оси. <br>
+                    Justify-content может принимать 5 значений:</p>
+                <h3>flex-start</h3>
+                <div class="btn__block">
+                    <button type="button" value="default" class="btn_base">default</button>
+                    <button type="button" value="center" class="btn_base">center</button>
+                    <button type="button" value="flex-start" class="btn_base">flex-start</button>
+                    <button type="button" value="flex-end" class="btn_base">flex-end</button>
+                    <button type="button" value="space-between" class="btn_base">space-between</button>
+                    <button type="button" value="space-around" class="btn_base">space-around</button>
+                </div>
+                <div >
+                    <p id="justify__content-title"></p>
+                </div>
+                <div id="flex__container" >
+                    <div class="flex__element _small">1</div>
+                    <div class="flex__element _medium">2</div>
+                    <div class="flex__element _small">3</div>
+                    <div class="flex__element _big">4</div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+</div>
+<script src="JS/JS.js"></script>
+</body>
+</html>
