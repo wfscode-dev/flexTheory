@@ -41,6 +41,11 @@ function addClassName(){
             refs.container.classList.add('flex__around');
             refs.title.textContent = "Элементы равномерно распределены вдоль главной оси контейнера. Расстояния между каждой парой соседних элементов равны. Пустые пространства перед первым элементом и после последнего элемента равны половине расстояния между парами соседних элементов."
             break;
+        case "space-evenly":
+            refs.container.classList='';
+            refs.container.classList.add('flex__evenly');
+            refs.title.textContent = "Расстояние между любыми двумя соседними элементами, а также перед первым и после последнего, было одинаковым."
+            break;
     }
 }
 

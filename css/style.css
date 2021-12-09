@@ -67,7 +67,6 @@ body {
     background-color: gray;
     display: flex;
     flex-wrap: wrap;
-    padding: 25px;
     box-sizing: border-box;
     border: 1px solid #252B42;
 }
@@ -89,6 +88,9 @@ body {
 }
 .flex__around{
     justify-content: space-around;
+}
+.flex__evenly{
+    justify-content: space-evenly;
 }
 .flex__container{}
 .flex__header{}
